@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="App Catalog icon">
+  <defs>
+    <linearGradient id="g1" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#2dd4bf" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="#0b1220"/>
+  <rect x="20" y="20" width="152" height="152" rx="30" fill="url(#g1)" opacity="0.96"/>
+  <path d="M70 126V66h18l20 27 20-27h18v60h-16V95l-22 29-22-29v31H70z" fill="#f8fafc"/>
+</svg>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7c3aed" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta
+      name="description"
+      content="Search and filter a catalog of 20 app listings with App Store install links, platform metadata, and PWA support."
+    />
+    <title>App Catalog</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand" aria-label="App Catalog">
+        <div class="brand-mark">A</div>
+        <div>
+          <p class="eyebrow">App directory</p>
+          <h1>App Catalog</h1>
+        </div>
+      </div>
+      <button id="installButton" class="install-button" type="button" hidden>
+        Add to Home Screen
+      </button>
+    </header>
+
+    <main class="page-shell">
+      <section class="panel intro-card" aria-labelledby="catalog-heading">
+        <div>
+          <p class="eyebrow">Indexed catalog</p>
+          <h2 id="catalog-heading">Browse the App Store metadata</h2>
+        </div>
+        <p class="intro-copy">
+          Search by app name, bundle ID, or platform to compare version, minimum OS, and size for all 20 apps in this supplied list.
+        </p>
+      </section>
+
+      <section class="panel controls" aria-label="Search and filters">
+        <div class="field-group search-field">
+          <label for="searchInput">Search apps</label>
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="Search by app, bundle ID, or platform"
+            aria-label="Search apps"
+          />
+        </div>
+
+        <div class="field-group filter-field">
+          <label for="platformFilter">Platform</label>
+          <select id="platformFilter" aria-label="Filter by platform">
+            <option value="all">All platforms</option>
+            <option value="iOS">iOS</option>
+            <option value="iPadOS">iPadOS</option>
+            <option value="macOS">macOS</option>
+          </select>
+        </div>
+
+        <div class="results-bar">
+          <span id="resultCount" aria-live="polite">0 apps</span>
+          <button id="clearFilters" class="secondary-button" type="button">Clear filters</button>
+        </div>
+      </section>
+
+      <section class="panel table-panel" aria-live="polite">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">App Name</th>
+                <th scope="col">Bundle ID</th>
+                <th scope="col">Version</th>
+                <th scope="col">Platform</th>
+                <th scope="col">Minimum OS</th>
+                <th scope="col">File Size</th>
+                <th scope="col">Install</th>
+              </tr>
+            </thead>
+            <tbody id="appTableBody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel deployment-card" aria-labelledby="deployment-heading">
+        <div>
+          <p class="eyebrow">Deployment</p>
+          <h2 id="deployment-heading">GitHub Pages</h2>
+        </div>
+        <ol class="steps">
+          <li>Push this project to a GitHub repository.</li>
+          <li>Open GitHub repository settings and go to Pages.</li>
+          <li>Select Deploy from a branch, choose the main branch, and set the folder to / (root).</li>
+          <li>Save and wait for the Pages site to publish.</li>
+        </ol>
+        <p class="note">
+          Your site will be available at: https://&lt;username&gt;.github.io/&lt;repository-name&gt;/
+        </p>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

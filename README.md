@@ -1,50 +1,48 @@
-# App Information — GitHub Pages + Codespaces
+# App Catalog
 
-A small static web app for displaying iOS app metadata and App Store search links.
+A responsive static web app for browsing a catalog of 20 supplied apps with search and filtering, App Store install links, and PWA support for adding the site to a home screen.
 
-## Included fields
+## Features
 
-- App Name
-- Bundle ID
-- Version
-- Platform
-- Minimum OS
-- File Size
-- App Store install/search button
-- Add to Home Screen support for the web app
+- Search and filter interface
+- All 20 supplied apps included
+- App Name, Bundle ID, Version, Platform, Minimum OS, and File Size
+- Install app on App Store search buttons
+- Add to Home Screen PWA support
+- GitHub Pages deployment guidance
+- Codespaces configuration
+- Responsive mobile and desktop layout
 
-## Run in GitHub Codespaces
+## Local preview
 
-No build system is required.
+No build step is required. From the project root, run:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then open port **8000** in the Codespaces Ports panel.
+Then open http://localhost:8000 or the forwarded port in Codespaces.
 
-## Deploy to GitHub Pages
+## GitHub Pages deployment
 
-1. Create a GitHub repository.
-2. Upload/push this project.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`.
-6. Save.
+1. Push this folder to a GitHub repository.
+2. Open the repository settings.
+3. Select Pages from the left navigation.
+4. Choose Deploy from a branch.
+5. Select the main branch and the root folder /.
+6. Save and wait for the GitHub Pages URL to publish.
 
-GitHub Pages will serve `index.html`.
+The app is designed to serve from a static GitHub Pages site, and the repository includes a .nojekyll file for compatibility.
 
-## App Store links
+## Codespaces
 
-The demo intentionally uses an App Store **search URL** for each app rather than inventing an App Store product ID. If you have verified App Store listing URLs, replace `appStoreSearchUrl()` in `app.js` with the exact URL stored in `apps.json`.
+The project includes a devcontainer configuration that automatically forwards port 8000 and starts the local server when the environment is created.
 
-## Important
+## PWA install support
 
-The metadata in this demo is based on the supplied list and is not independently verified. Historical apps may no longer be available on the App Store, and their current minimum OS requirements or listing URLs may differ.
+The page registers a service worker and includes a manifest so supported browsers can offer an Add to Home Screen option. In Safari, users can also tap the Share button and choose Add to Home Screen.
 
-The **Add to Home Screen** button installs this GitHub Pages website as a web app/PWA where supported. It does not install an iOS App Store binary.
-
-## Suggested repository structure
+## Project structure
 
 ```text
 .
@@ -54,8 +52,12 @@ The **Add to Home Screen** button installs this GitHub Pages website as a web ap
 ├── .nojekyll
 ├── app.js
 ├── apps.json
+├── icons/
+│   ├── icon-192.svg
+│   └── icon-512.svg
 ├── index.html
 ├── manifest.webmanifest
 ├── styles.css
+├── sw.js
 └── README.md
 ```
