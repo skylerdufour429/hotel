@@ -1,0 +1,182 @@
+[
+  {
+    "appName": "Instagram",
+    "bundleId": "com.burbn.instagram",
+    "version": "382.0",
+    "platform": "iOS",
+    "minOs": "15.1",
+    "fileSize": "332 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Instagram"
+  },
+  {
+    "appName": "Spotify",
+    "bundleId": "com.spotify.client",
+    "version": "9.0.24",
+    "platform": "iOS",
+    "minOs": "15.0",
+    "fileSize": "214 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Spotify"
+  },
+  {
+    "appName": "Netflix",
+    "bundleId": "com.netflix.Netflix",
+    "version": "17.51.0",
+    "platform": "iOS",
+    "minOs": "15.0",
+    "fileSize": "189 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Netflix"
+  },
+  {
+    "appName": "YouTube",
+    "bundleId": "com.google.ios.youtube",
+    "version": "20.14.3",
+    "platform": "iOS",
+    "minOs": "16.0",
+    "fileSize": "287 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=YouTube"
+  },
+  {
+    "appName": "WhatsApp",
+    "bundleId": "net.whatsapp.WhatsApp",
+    "version": "24.23.81",
+    "platform": "iOS",
+    "minOs": "16.0",
+    "fileSize": "204 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=WhatsApp"
+  },
+  {
+    "appName": "TikTok",
+    "bundleId": "com.zhiliaoapp.musically",
+    "version": "35.4.0",
+    "platform": "iOS",
+    "minOs": "15.0",
+    "fileSize": "422 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=TikTok"
+  },
+  {
+    "appName": "Google Maps",
+    "bundleId": "com.google.Maps",
+    "version": "7.1.2",
+    "platform": "iOS",
+    "minOs": "16.0",
+    "fileSize": "236 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Google+Maps"
+  },
+  {
+    "appName": "Uber",
+    "bundleId": "com.ubercab.UberClient",
+    "version": "4.595.100",
+    "platform": "iOS",
+    "minOs": "15.0",
+    "fileSize": "266 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Uber"
+  },
+  {
+    "appName": "Slack",
+    "bundleId": "com.tinyspeck.slackmacgap",
+    "version": "24.07.26",
+    "platform": "iOS",
+    "minOs": "16.0",
+    "fileSize": "185 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Slack"
+  },
+  {
+    "appName": "Dropbox",
+    "bundleId": "com.getdropbox.Dropbox",
+    "version": "394.2",
+    "platform": "iPadOS",
+    "minOs": "15.0",
+    "fileSize": "198 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Dropbox"
+  },
+  {
+    "appName": "Adobe Lightroom",
+    "bundleId": "com.adobe.LightroomMobile",
+    "version": "9.1.1",
+    "platform": "iOS",
+    "minOs": "16.0",
+    "fileSize": "446 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Adobe+Lightroom"
+  },
+  {
+    "appName": "Zoom",
+    "bundleId": "us.zoom.videomeetings",
+    "version": "6.3.6",
+    "platform": "iOS",
+    "minOs": "15.0",
+    "fileSize": "212 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Zoom"
+  },
+  {
+    "appName": "Microsoft Teams",
+    "bundleId": "com.microsoft.teams",
+    "version": "6.0.1",
+    "platform": "iOS",
+    "minOs": "16.0",
+    "fileSize": "347 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Microsoft+Teams"
+  },
+  {
+    "appName": "Notion",
+    "bundleId": "notion.id",
+    "version": "24.10.0",
+    "platform": "iOS",
+    "minOs": "16.0",
+    "fileSize": "213 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Notion"
+  },
+  {
+    "appName": "Duolingo",
+    "bundleId": "com.duolingo.DuolingoMobile",
+    "version": "6.39.0",
+    "platform": "iOS",
+    "minOs": "15.0",
+    "fileSize": "191 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Duolingo"
+  },
+  {
+    "appName": "Amazon Prime Video",
+    "bundleId": "com.amazon.aiv.AIVApp",
+    "version": "7.0.2",
+    "platform": "iPadOS",
+    "minOs": "15.0",
+    "fileSize": "231 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Amazon+Prime+Video"
+  },
+  {
+    "appName": "CapCut",
+    "bundleId": "com.lemon.lvoversea",
+    "version": "13.1.0",
+    "platform": "iOS",
+    "minOs": "15.0",
+    "fileSize": "369 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=CapCut"
+  },
+  {
+    "appName": "Headspace",
+    "bundleId": "com.getsomeheadspace.Headspace",
+    "version": "4.61.1",
+    "platform": "iOS",
+    "minOs": "16.0",
+    "fileSize": "112 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Headspace"
+  },
+  {
+    "appName": "Pinterest",
+    "bundleId": "pinterest.ios",
+    "version": "10.16.0",
+    "platform": "iOS",
+    "minOs": "15.0",
+    "fileSize": "221 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Pinterest"
+  },
+  {
+    "appName": "Messenger",
+    "bundleId": "com.facebook.Messenger",
+    "version": "463.0",
+    "platform": "iOS",
+    "minOs": "15.0",
+    "fileSize": "255 MB",
+    "appStoreSearchUrl": "https://apps.apple.com/us/search?term=Messenger"
+  }
+]

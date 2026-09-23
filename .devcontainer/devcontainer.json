@@ -1,0 +1,21 @@
+{
+  "name": "App Catalog",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "App Catalog",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "python3 -m http.server 8000 --directory /workspaces/hotel >/tmp/app_catalog.log 2>&1 &",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-vscode.vscode-typescript-next",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
